@@ -16,13 +16,7 @@ const montserrat = Montserrat({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className}`}>
-        <nav>
-          <ul className={`${inter.className}`}>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-          </ul>
-        </nav>
+      <body className={`${montserrat.className} mx-32 my-12`}>
         {children}
       </body>
     </html>
